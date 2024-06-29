@@ -4,7 +4,7 @@ while i < len(my_list):
     if my_list[i] > 0:
         print(my_list[i])
         i = i + 1            # Перебираем список
-    elif my_list[i] <= 0:    # Или my_list[i] == 0, до первого отрицательного числа
+    elif my_list[i] == 0:    
         i += 1               # Или i = i + 1
     else:
         break
